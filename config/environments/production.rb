@@ -17,6 +17,12 @@ Rails.application.configure do
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+  
+  # Action Cable config
+  config.action_cable.allowed_request_origins = ['https://action-cabel-chat-rails-5.herokuapp.com',
+                                               'http://action-cabel-chat-rails-5.herokuapp.com']
+
+  config.action_cable.url = "wss://action-cabel-chat-rails-5.herokuapp.com/cable"
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
