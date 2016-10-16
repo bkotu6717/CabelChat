@@ -23,5 +23,7 @@ Things you may want to cover:
 
 * ...
 
-Server Side
+* The app is mounted at https://action-cabel-chat-rails-5.herokuapp.com
 
+
+*Reference :https://www.sitepoint.com/create-a-chat-app-with-rails-5-actioncable-and-devise/
